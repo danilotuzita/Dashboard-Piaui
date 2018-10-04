@@ -1,0 +1,24 @@
+{
+  "name": "dashboard-piaui",
+  "version": "1.0.0",
+  "description": "Dashboard",
+  "main": "main.js",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "electron": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilotuzita/Dashboard-Piaui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danilotuzita/Dashboard-Piaui/issues"
+  },
+  "homepage": "https://github.com/danilotuzita/Dashboard-Piaui#readme"
+}
