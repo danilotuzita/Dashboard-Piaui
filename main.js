@@ -7,7 +7,7 @@ function createWindow () {
     const path = __dirname.toString() + '\\' + 'index.html'; // por algum motivo para o windows ele pega o index.html default do electron, não o do projeto
     win.loadFile(path)
 
-    // win.webContents.openDevTools()
+    // win.webContents.openDevTools() // Abre f12 do chrome
 
     win.on('closed', () => {
         win = null
