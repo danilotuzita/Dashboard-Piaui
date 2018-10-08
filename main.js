@@ -3,9 +3,10 @@ const { app, BrowserWindow } = require('electron')
 let win
 function createWindow () {
     win = new BrowserWindow({ width: 800, height: 600 })
-
+    win.maximize()
     const path = __dirname.toString() + '\\' + 'index.html'; // por algum motivo para o windows ele pega o index.html default do electron, não o do projeto
     win.loadFile(path)
+
 
     // win.webContents.openDevTools() // Abre f12 do chrome
 
